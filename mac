@@ -241,6 +241,9 @@ fancy_echo "Install brew_cask to install app easy..."
 #TODO
 #goagent
 
+fancy_echo "Install cheat"
+    brew_install_or_update "cheat"
+
 fancy_echo "Installing your personal additions from ~/.laptop.local ..."
   if [[ -f ~/.laptop.local ]]; then
     source ~/.laptop.local
